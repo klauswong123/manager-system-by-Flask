@@ -1,6 +1,5 @@
 from flask_sqlalchemy import SQLAlchemy
 from flask import Flask
-from flask_mail import Mail, Message
 from flask_script import Manager
 from flask_bootstrap import Bootstrap
 from datetime import timedelta
@@ -21,4 +20,3 @@ bootstrap = Bootstrap(app)
 
 app.config.from_object(__name__)
 db = SQLAlchemy(app)
-manager = Manager(app)

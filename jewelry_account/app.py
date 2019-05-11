@@ -1,14 +1,18 @@
 import os
 import random
 from flask import Flask, render_template, redirect, url_for, flash, abort, session, request, jsonify, send_from_directory
-from setting import app, db,bootstrap,manager
+from setting import app, db,bootstrap
 from forms import AdminForm,LoginForm,SearchForm,AdminAddForm,Coupon_CreateForm, Coupon_TakeForm
 from models import Users,Coupon
 from forms import LoginForm
 from flask_wtf.csrf import CsrfProtect
 import string
 import hashlib
-
+from flask_migrate import Migrate,MigrateCommand
+from flask_script import Manager
+manager = Manager(app)
+migrate = Migrate(app,db)
+manager.add_command('db', MigrateCommand)
 
 @app.route('/', methods=['GET', 'POST'])
 def login():

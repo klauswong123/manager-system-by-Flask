@@ -7,7 +7,6 @@ class Users(db.Model):
     id = db.Column(db.String(64), unique=True)
     password = db.Column(db.String(64))
     #active_state = db.Column(db.Boolean, default=True)
-
     address = db.Column(db.String(64))
     discount = db.Column(db.String(64))
     credit = db.Column(db.Integer, default=0)
@@ -18,8 +17,8 @@ class Coupon(db.Model):
     id = db.Column(db.String(64), unique=True)
     active_state = db.Column(db.Boolean, default=True)
     create_date = db.Column(db.DateTime, default=datetime.now)
-    use_date = db.Column(db.DateTime, default=datetime.now())
-    user = db.Column(db.String(64), unique=True)
+    use_date = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)
+    user_name = db.Column(db.String(64), unique=True)
     user_phone = db.Column(db.Integer, default=0)
 
 #coupon1 = Coupon(id='123hjh')
