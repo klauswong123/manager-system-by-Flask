@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f1d187-1c96-4da3-91ed-73458c96081c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jewelry_account/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/jewelry_account/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jewelry_account/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/jewelry_account/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jewelry_account/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/jewelry_account/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jewelry_account/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4235">
-              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+            <state relative-caret-position="166">
+              <caret line="225" column="12" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +123,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/jewelry_account" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -289,7 +291,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="320" y="0" width="966" height="688" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23017621" />
@@ -298,7 +299,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5004042" side_tool="true" weight="0.38120568" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" visible="true" weight="0.3291367" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.3291367" />
       <window_info anchor="bottom" id="Version Control" order="5" />
       <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4995958" weight="0.053956833" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.11531532" />
@@ -446,8 +447,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jewelry_account/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4235">
-          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        <state relative-caret-position="166">
+          <caret line="225" column="12" selection-start-line="225" selection-start-column="12" selection-end-line="225" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

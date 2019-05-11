@@ -1,0 +1,1 @@
+web gunicorn jewelry_account/app:app
