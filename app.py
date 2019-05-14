@@ -8,7 +8,7 @@ from forms import LoginForm
 from flask_wtf.csrf import CsrfProtect
 import string
 import hashlib
-from flask_migrate import Migrate,MigrateCommand
+from flask_migrate import Migrate,MigrateCommand, upgrade
 from flask_script import Manager
 manager = Manager(app)
 migrate = Migrate(app,db)
@@ -230,7 +230,9 @@ def clear():
     print (session.get('username'))
     return ('<h1>success</h1>')
 
-
+@manager.command
+def deploy():
+	upgrade()
 
 
 if __name__ == '__main__':
