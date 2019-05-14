@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block page_content%}
+<p>
+
+</p>
+<div class="table-responsive">
+<table class="table table-bordered table-striped table-hover table-condensed">
+	<thead>
+			<th>優惠劵號碼</th>
+
+			<th>操作狀態</th>
+			</thead>
+			<tbody>
+			{% for coupon in coupons %}
+			<tr>
+				<td class="data">{{ coupon.id }}</td>
+				{% if coupon.active_state %}
+					<td><a href="/coupon/take">領取</a></td>
+				{% else %}
+					<td>已被領取</td>
+				{% endif %}
+			</tr>
+			{% endfor %}
+	</tbody>
+</table>
+</div>
+{% endblock %}
+

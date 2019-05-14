@@ -1,0 +1,72 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}管理員{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">管理員</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</button>
+			<a href="/admin/control" class="navbar-brand">管理員</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+		        <li><a href="/logout">退出</a></li>
+		    </ul>
+		    <ul class="nav navbar-nav">
+				<li><a href="/admin/control">首页</a></li>
+				<li><a href="/admin/create_coupon">新增優惠券</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+	{% for message in get_flashed_messages() %}
+		<div class="alert alert-warning">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+			{{ message }}
+		</div>
+	{% endfor %}
+	{% block page_content%}
+	<p>
+
+	</p>
+	<div class="table-responsive">
+		<table class="table table-bordered table-striped table-hover table-condensed">
+			<thead>
+			<th>優惠劵號碼</th>
+			<th>優惠劵使用狀態</th>
+			<th>客戶手機尾號</th>
+			<th>生成日期</th>
+			<th>使用日期</th>
+			</thead>
+			<tbody>
+			{% for coupon in coupons %}
+			<tr>
+				<td class="data">{{ coupon.id }}</td>
+				{% if coupon.active_state %}
+				<td class="data">未使用</td>
+				{% else %}
+				<td class="data">已使用</td>
+				{% endif %}
+				<td class="data">{{ coupon.user_phone }}</td>
+				<td class="data">{{ coupon.create_date }}</td>
+				<td class="data">{{ coupon.use_date }}</td>
+			</tr>
+			{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	{% endblock %}
+</div>
+{% endblock content %}
+
+

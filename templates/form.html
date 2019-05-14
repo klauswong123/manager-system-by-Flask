@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block page_content %}
+{% if user %}
+<ul class="nav nav-tabs">
+
+  	<li role="presentation"><a href="/u/{{ user.id }}">商戶信息</a></li>
+</ul>
+<p>
+	
+</p>
+{% endif %}
+{{ wtf.quick_form(form) }}
+{% endblock %}
+
+
+

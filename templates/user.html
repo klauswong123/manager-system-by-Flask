@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block page_content%}
+<p>
+
+</p>
+<div class="table-responsive">
+<table class="table table-bordered table-striped table-hover table-condensed">
+	<thead>
+		<th>賬戶名稱</th>
+		<th>賬戶積分</th>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td class="data">{{ user.id }}</td>
+			<td class="data">{{ user.credit}}</td>
+
+		</tr>
+	</tbody>
+</table>
+</div>
+{% endblock %}
+
