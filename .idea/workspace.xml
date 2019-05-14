@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1cb27b1a-c119-4676-b95e-1ce394477c96" name="Default Changelist" comment="" />
+    <list default="true" id="1cb27b1a-c119-4676-b95e-1ce394477c96" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/versions/hi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jewelry.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jewelry.iml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,8 +68,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/migrations/versions/hi">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -102,7 +110,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="290" />
     <option name="y" value="47" />
     <option name="width" value="1400" />
@@ -122,6 +130,17 @@
             <path>
               <item name="jewelry" type="b2602c69:ProjectViewProjectNode" />
               <item name="jewelry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jewelry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jewelry" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jewelry" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jewelry" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="versions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,6 +181,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="290" y="47" width="1400" height="781" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,6 +254,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/migrations/versions/hi">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
