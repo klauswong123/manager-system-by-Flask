@@ -27,5 +27,5 @@ class Coupon(db.Model):
 #db.session.add(coupon1)
 #db.session.commit()
 #db.drop_all()
-#db.create_all()
+db.create_all()
 
