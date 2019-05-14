@@ -28,4 +28,7 @@ class Coupon(db.Model):
 #db.session.commit()
 #db.drop_all()
 db.create_all()
+#coupon = Coupon(id='qwenqwueqw')
+#db.session.add(coupon)
+#db.session.commit()
 
