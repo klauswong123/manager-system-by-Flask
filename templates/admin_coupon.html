@@ -79,13 +79,14 @@
 <script>
 $(document).ready(function() {
 	$(".delete").click(function() {
-			$.post('/admin/coupon/delete', {id: $(this).siblings().first().text()});
+			$.post('/admin/coupon/delete', {id: $(this).siblings().first().text()}, function(data) {}, 'json');
 			$(this).parent('tr').remove();
 	}).hover(function() {
 		$(this).css('background-color', 'red');
 	}, function() {
 		$(this).css('background-color', 'white');
 	});
+});
 </script>
 {% endblock %}
 
