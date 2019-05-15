@@ -104,9 +104,9 @@ def coupon_detail():
 def coupon_take():
 	form = Coupon_TakeForm()
 	if form.validate_on_submit():
-		phone = form.phone.data
+		ig = form.ig.data
 		coupon = Coupon.query.filter_by(active_state=True).first()
-		coupon.user_phone = int(phone)
+		coupon.user_name = ig
 		coupon.active_state = False
 		db.session.add(coupon)
 		return render_template('coupon_result.html', coupon=coupon)
