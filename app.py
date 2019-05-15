@@ -10,6 +10,10 @@ import string
 import hashlib
 from flask_migrate import Migrate,MigrateCommand, upgrade
 from flask_script import Manager
+from datetime import datetime, timedelta
+
+
+
 manager = Manager(app)
 migrate = Migrate(app,db)
 manager.add_command('db', MigrateCommand)
@@ -108,6 +112,7 @@ def coupon_take():
 		coupon = Coupon.query.filter_by(active_state=True).first()
 		coupon.user_name = ig
 		coupon.active_state = False
+		coupon.use_date = (datetime.now()+ timedelta(hours=8))
 		db.session.add(coupon)
 		return render_template('coupon_result.html', coupon=coupon)
 	return render_template('take_coupon.html', form=form)
@@ -134,7 +139,8 @@ def create_coupon():
 			m = hashlib.md5()
 			m.update(n.encode('utf-8'))
 			result = m.hexdigest()
-			coupon = Coupon(id=result, active_state=True)
+			date = (datetime.now()+ timedelta(hours=8))
+			coupon = Coupon(id=result, active_state=True, create_date=date)
 			db.session.add(coupon)
 		flash('增加成功')
 		coupons = Coupon.query.all()
