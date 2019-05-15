@@ -1,11 +1,9 @@
-import os
 import random
-from flask import Flask, render_template, redirect, url_for, flash, abort, session, request, jsonify, send_from_directory
+from flask import  render_template, redirect, url_for, flash, abort, session, request, jsonify, send_from_directory
 from setting import app, db,bootstrap
 from forms import AdminForm,LoginForm,SearchForm,AdminAddForm,Coupon_CreateForm, Coupon_TakeForm
 from models import Users,Coupon
 from forms import LoginForm
-from flask_wtf.csrf import CsrfProtect
 import string
 import hashlib
 from flask_migrate import Migrate,MigrateCommand, upgrade
@@ -173,17 +171,6 @@ def admin_delete():
 			db.session.delete(user)
 		return 'ok'
 	abort(400)
-
-#管理员冻结用户路由控制
-'''@app.route('/admin/frozen', methods=['POST'])
-def admin_frozen():
-	if session.get('admin'):
-		user = Users.query.filter_by(id=request.form.get('id')).first()
-		if user:
-			user.active_state = False
-			db.session.add(user)
-		return 'ok'
-	abort(400)'''
 
 #管理员解冻用户路由控制
 @app.route('/admin/normal', methods=['POST'])

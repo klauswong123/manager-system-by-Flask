@@ -1,11 +1,8 @@
 from flask import Flask
-from flask_script import Manager
 from flask_bootstrap import Bootstrap
 from datetime import timedelta
 import random, string, hashlib
 from flask_sqlalchemy import SQLAlchemy
-import os
-import pymysql
 
 
 
@@ -15,7 +12,7 @@ m.update(n.encode('utf-8'))
 result = m.hexdigest()
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:1314wang@/jewelry_account'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:password@/database'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config["SECRET_KEY"] = result
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
