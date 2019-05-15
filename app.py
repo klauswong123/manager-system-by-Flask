@@ -169,6 +169,14 @@ def admin_add():
 		return redirect(url_for('control'))
 	return render_template('adminadd.html', form=form)
 
+@app.route('/admin/coupon/delete', methods=['POST'])
+def coupon_delete():
+	if session.get('admin'):
+		coupon = Coupon.query.filter_by(id=request.form.get('id')).first()
+		if coupon:
+			db.session.delete(coupon)
+		return 'ok'
+	abort(400)
 
 #管理员删除用户路由控制
 @app.route('/admin/delete', methods=['POST'])
