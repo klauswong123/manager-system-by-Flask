@@ -47,6 +47,7 @@
 			<th>客戶ig賬號名稱</th>
 			<th>生成日期</th>
 			<th>使用日期</th>
+
 			<th>操作</th>
 			</thead>
 			<tbody>
@@ -61,6 +62,7 @@
 				<td class="data">{{ coupon.user_name }}</td>
 				<td class="data">{{ coupon.create_date }}</td>
 				<td class="data">{{ coupon.use_date }}</td>
+
 				<td class="delete">删除</td>
 			</tr>
 			{% endfor %}
@@ -77,7 +79,7 @@
 <script>
 $(document).ready(function() {
 	$(".delete").click(function() {
-			$.post('/admin/coupon/delete', {id: $(this).siblings().first().text()}, function(data) {}, 'json');
+			$.post('/admin/coupon/delete', {id: $(this).siblings().first().text()});
 			$(this).parent('tr').remove();
 	}).hover(function() {
 		$(this).css('background-color', 'red');
