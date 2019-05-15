@@ -13,8 +13,8 @@ class AdminForm(FlaskForm):
     def password_check(self,field):
         if field.data != 'wearewongfamily':
             raise ValidationError('密碼錯誤')
-    email = StringField("管理者郵箱",validators=[DataRequired(message='郵箱是空的'),
-                                            Email(message=u'不是郵箱'),account_check])
+    email = StringField("管理者郵箱",validators=[DataRequired(message='請輸入管理者郵箱'),
+                                            account_check])
     password = PasswordField("管理者密碼",validators=[DataRequired(message='密碼錯誤'),password_check])
     login = SubmitField("管理者登陸")
 
