@@ -8,9 +8,17 @@ import string
 import hashlib
 from flask_migrate import Migrate,MigrateCommand, upgrade
 from flask_script import Manager
+import os
 manager = Manager(app)
 migrate = Migrate(app,db)
 manager.add_command('db', MigrateCommand)
+
+
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'JPG', 'PNG', 'bmp'])
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1] in ALLOWED_EXTENSIONS
+
+basedir = os.path.abspath(os.path.dirname(__file__))
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -146,7 +154,17 @@ def control():
 	if not session.get('admin'):
 		abort(400)
 	users = Users.query.all()
-	return render_template('control.html', users=users)
+	if request.method == 'POST':
+		if request.files['file']:
+			file = request.files['file']
+			if file.filename == '':
+				flash('No selected file')
+				return url_for(control)
+			if file and allowed_file(file.filename):
+				new_filename = '321.jpg'
+				file.save(os.path.join(app.config['UPLOAD_FOLDER'], new_filename))
+				flash("上傳成功")
+	return render_template('control.html', users=users, admin=True)
 
 #管理员新增用户路由控制
 @app.route('/admin/add', methods=['GET', 'POST'])

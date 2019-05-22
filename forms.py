@@ -52,3 +52,5 @@ class Coupon_TakeForm(FlaskForm):
 class SearchForm(FlaskForm):
 	keyword = StringField("输入查询关键字", validators=[DataRequired(message="输入不能为空")])
 	search = SubmitField("Find It!")
+
+

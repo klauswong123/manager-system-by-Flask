@@ -5,6 +5,9 @@
       <sourceFolder url="file://$MODULE_DIR$/jewelry_account" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/jewelry_account/templates" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/jewelry_account/static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/templates" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/static" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/static/photo" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.6 (jew_acc)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

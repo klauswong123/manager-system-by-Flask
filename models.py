@@ -21,6 +21,11 @@ class Coupon(db.Model):
     user_name = db.Column(db.String(64), unique=True)
     user_phone = db.Column(db.Integer, default=0)
 
+'''class Photo(db.Model):
+    __tablename__ = "photo"
+    key = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    path = db.Column(db.String(64))
+    name = db.Column(db.String(64), unique=True)'''
 #coupon1 = Coupon(id='123hjh')
 #db.session.add(coupon1)
 #db.session.commit()
