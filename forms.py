@@ -8,10 +8,10 @@ from models import Users,Coupon
 class AdminForm(FlaskForm):
     #郵箱認證
     def account_check(self,field):
-        if field.data != 'klauswangjinpeng@gmail.com':
+        if field.data != 'email':
             raise ValidationError('賬號錯誤')
     def password_check(self,field):
-        if field.data != '1314wang.':
+        if field.data != 'pw':
             raise ValidationError('密碼錯誤')
     email = StringField("管理者郵箱",validators=[DataRequired(message='郵箱是空的'),
                                             Email(message=u'不是郵箱'),account_check])
