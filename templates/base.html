@@ -17,8 +17,10 @@
 		<div class="navbar-collapse collapse">
 			{% if user %}
 			<ul class="nav navbar-nav">
-				<li><a href="/u/{{ user.id }}">首页</a></li>
+				<li><a href="/">首页</a></li>
 				<li><a href="/coupon">領取優惠券(Coupon)</a></li>
+				<li><a href="/credit_shop">積分商城</a>
+				<li><a href="/u/goods">我的兌換</a>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 		        <li><a href="/logout">退出</a></li>
@@ -45,14 +47,6 @@
 
 	{% block page_content %}{% endblock %}
 	</div>
-<div class="container">
-    <div class="row" style=";border-style: solid;border-color: black;background-color:white;position:absolute;right:150px;top:250px;">
-        <div class="col-md-8">
-                <img src="/static/photo/321.jpg" width="300" height="200" alt="你的图片被外星人劫持了～～"/>
-        </div>
-    </div>
-</div>
-
 {% endblock %}
 
 

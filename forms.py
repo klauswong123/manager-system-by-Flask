@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
 from flask import session
-from wtforms import StringField, SubmitField, PasswordField, ValidationError, IntegerField, DateTimeField, BooleanField
+from wtforms import StringField, SubmitField, PasswordField, ValidationError, IntegerField, DateTimeField, BooleanField, FileField
 from wtforms.validators import Email, DataRequired, Length, EqualTo
 from models import Users,Coupon
 
@@ -8,10 +8,10 @@ from models import Users,Coupon
 class AdminForm(FlaskForm):
     #郵箱認證
     def account_check(self,field):
-        if field.data != 'admin':
+        if field.data != 'klauswangjinpeng@gmail.com':
             raise ValidationError('賬號錯誤')
     def password_check(self,field):
-        if field.data != 'pw':
+        if field.data != '1314wang.':
             raise ValidationError('密碼錯誤')
     email = StringField("管理者郵箱",validators=[DataRequired(message='郵箱是空的'),
                                             Email(message=u'不是郵箱'),account_check])
@@ -26,6 +26,14 @@ class LoginForm(FlaskForm):
     id = StringField('ig賬號', validators=[DataRequired(message='請輸入ig賬號')])
     password = PasswordField('密碼',validators=[DataRequired(message='輸入密碼')])
     login = SubmitField("登入")
+
+class Add_photo(FlaskForm):
+    photo = FileField(validators=[DataRequired()])
+    text = StringField('積分商品説明', validators=[DataRequired(message='請輸入積分商品内容')])
+    credit = StringField('所需積分', validators=[DataRequired(message='請輸入所需積分')])
+    number = StringField('生成數量', validators=[DataRequired(message='請輸入生成數量')])
+    submit = SubmitField("添加積分商品")
+
 
 class AdminAddForm(FlaskForm):
     def password_noblank(self,field):

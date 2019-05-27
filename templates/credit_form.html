@@ -1,0 +1,34 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}管理員{% endblock %}
+
+{% block navbar %}
+<div class="navbar navbar-inverse" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">管理員</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+			</button>
+			<a href="/admin/control" class="navbar-brand">管理員</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/admin/add">新增用户</a></li>
+		        <li><a href="/logout">退出</a></li>
+				<li><a href="/admin/search">搜索用戶</a> </li>
+		    </ul>
+		    <ul class="nav navbar-nav">
+				<li><a href="/admin/control">首页</a></li>
+				<li><a href="/admin/coupon">優惠劵管理</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+{% endblock %}
+
+{% block content %}
+{{ wtf.quick_form(form) }}
+{% endblock%}
