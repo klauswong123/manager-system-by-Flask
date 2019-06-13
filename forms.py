@@ -54,7 +54,7 @@ class Coupon_CreateForm(FlaskForm):
     submit = SubmitField("生成新的優惠券")
 
 class Coupon_TakeForm(FlaskForm):
-    phone = StringField('請輸入手機後四位號碼',validators=[DataRequired(message='請輸入手機後四位號號'), Length(min=4,max=4)])
+    ig = StringField('請輸入ig賬號名稱',validators=[DataRequired(message='請輸入ig賬號名稱')])
     submit = SubmitField('領取優惠劵')
 
 class SearchForm(FlaskForm):

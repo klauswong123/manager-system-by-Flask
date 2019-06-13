@@ -20,7 +20,7 @@
 		    </ul>
 		    <ul class="nav navbar-nav">
 				<li><a href="/admin/control">首页</a></li>
-				<li><a href="/admin/create_coupon">新增優惠券</a></li>
+				<li><a href="/admin/coupon/create_coupon">新增優惠券</a></li>
 			</ul>
 		</div>
 	</div>
@@ -44,7 +44,7 @@
 			<thead>
 			<th>優惠劵號碼</th>
 			<th>優惠劵使用狀態</th>
-			<th>客戶手機尾號</th>
+			<th>客戶ig賬號</th>
 			<th>生成日期</th>
 			<th>使用日期</th>
 			</thead>
@@ -57,9 +57,13 @@
 				{% else %}
 				<td class="data">已使用</td>
 				{% endif %}
-				<td class="data">{{ coupon.user_phone }}</td>
+				<td class="data">{{ coupon.user_name }}</td>
 				<td class="data">{{ coupon.create_date }}</td>
+				{% if coupon.use_date == coupon.create_date %}
+				<td class="data">未領取</td>
+				{% else %}
 				<td class="data">{{ coupon.use_date }}</td>
+				{% endif %}
 			</tr>
 			{% endfor %}
 			</tbody>
