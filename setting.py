@@ -12,7 +12,7 @@ m.update(n.encode('utf-8'))
 result = m.hexdigest()
 UPLOAD_FOLDER = 'static/photo'
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:1314wang@/jewelry_system'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://username:pw@/db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config["SECRET_KEY"] = result
 app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(days=7)
