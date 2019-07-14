@@ -1,0 +1,21 @@
+{% if number<20 and number>=0 %}
+    {{ wtf.quick_form(form) }}
+{% else %}
+    <h3>照片墻已滿</h3>
+{% endif %}
+<!--    <button><a href={{url_for('admin_credit.show_credit', file="file6.jpg")}}>查看圖片</a></button>-->
+{% for num in numbers %}
+    <div class="card mb-4 shadow-sm">
+        <img class="bd-placeholder-img card-img-top" width="100%" height="225"
+             src="/static/photo/{{ filename }}_{{ num }}.jpg" alt="暫無優惠價"/>
+    </div>
+    <div class="btn-group">
+        <button><a href={{url_for('admin_credit.del_credit', file="{{ filename }}_{{ num }}.jpg")}}>刪除</a></button>
+        <button><a href={{url_for('admin_credit.add_credit', file="{{ filename }}_{{ num }}.jpg")}}>更換圖片</a></button>
+    </div>
+{% endfor %}
+
+<div style="border:2px solid #1AC300;background-color:#ffffcc;padding:5px;height:160px; width:95%; overflow:auto;">
+重要資訊內容
+</div>
+

@@ -2,37 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97f1d187-1c96-4da3-91ed-73458c96081c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/admin_coupon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon/coupon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coupon/templates/take_coupon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit_shop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit_shop/creditshop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/credit_shop/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin_group.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/admin_quick.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/templates/admin_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/templates/create_question.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/templates/try.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coupon/templates/questions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_buying/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_buying/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/group_buying/templates/photos.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick_buy/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quick_buy/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jew_acc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jew_acc.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TEMP.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin_coupon.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin_coupon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/admin_credit.py" beforeDir="false" afterPath="$PROJECT_DIR$/admin/admin_credit.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/admin_coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/admin_credit_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_credit_shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/admin_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/control.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/control.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/create_coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/create_coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/templates/credit_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/credit_form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/coupon.py" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/coupon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/templates/coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/templates/coupon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coupon/templates/coupon_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/templates/coupon_result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit_shop/creditshop.py" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/creditshop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit_shop/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit_shop/templates/credit_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/templates/credit_goods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/credit_shop/templates/credit_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/templates/credit_shop.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/photo/file1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photo/file1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin_coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_coupon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin_credit_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_credit_shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/admin_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/admin_goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/adminadd.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/adminadd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/alembic.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/env.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/script.py.mako" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/file1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/file2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photo/file3.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/control.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/control.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/templates/coupon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/coupon_result.html" beforeDir="false" afterPath="$PROJECT_DIR$/coupon/templates/coupon_result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/create_coupon.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/create_coupon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/credit_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/templates/credit_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/credit_goods.html" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/templates/credit_goods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/credit_shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/credit_shop/templates/credit_shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/photo.html" beforeDir="false" afterPath="$PROJECT_DIR$/admin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/take_coupon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/try.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/show.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,31 +54,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="179">
+              <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
               <folding>
-                <element signature="e#1#115#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/coupon/coupon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/admin_coupon.html">
+        <entry file="file://$PROJECT_DIR$/coupon/templates/coupon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="323">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon/templates/coupon_result.html">
+        <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="-779">
+              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/coupon/templates/take_coupon.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -74,54 +111,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/templates/admin_credit_shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+            <state relative-caret-position="108">
+              <caret line="170" column="72" selection-start-line="170" selection-start-column="72" selection-end-line="170" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/admin_goods.html">
+        <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_goods.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="141">
+              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/adminadd.html">
+        <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
+            <state relative-caret-position="1406">
+              <caret line="74" column="122" selection-start-line="74" selection-start-column="122" selection-end-line="74" selection-end-column="122" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/control.html">
+        <entry file="file://$PROJECT_DIR$/admin/templates/admin_coupon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="171">
+              <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/create_coupon.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/templates/credit_form.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/coupon/templates/coupon.html">
+        <entry file="file://$PROJECT_DIR$/admin/admin_coupon.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="464">
+              <caret line="71" selection-start-line="71" selection-end-line="72" />
+              <folding>
+                <element signature="e#0#102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -145,6 +175,9 @@
       <find>col-md-4</find>
       <find>g</find>
       <find>css</find>
+      <find>show_credit</find>
+      <find>form</find>
+      <find>QUERY.ALL</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,61 +186,61 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/jewelry_account/templates/control.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/create_coupon.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/take_coupon.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/coupon.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/coupon_result.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/base.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/templates/admin_coupon.html" />
-        <option value="$PROJECT_DIR$/jewelry_account/config.py" />
-        <option value="$PROJECT_DIR$/jewelry_account/forms.py" />
-        <option value="$PROJECT_DIR$/jewelry_account/setting.py" />
-        <option value="$PROJECT_DIR$/jewelry_account/app.py" />
-        <option value="$PROJECT_DIR$/jewelry_account/models.py" />
-        <option value="$PROJECT_DIR$/runtime" />
-        <option value="$PROJECT_DIR$/app.yaml" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/static/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/templates/try.html" />
-        <option value="$PROJECT_DIR$/templates/form.html" />
-        <option value="$PROJECT_DIR$/pic_name.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/templates/photo.html" />
-        <option value="$PROJECT_DIR$/TEMP.py" />
         <option value="$PROJECT_DIR$/templates/credit_form.xhtml" />
         <option value="$PROJECT_DIR$/templates/credit_form.html" />
-        <option value="$PROJECT_DIR$/templates/show.html" />
-        <option value="$PROJECT_DIR$/models.py" />
         <option value="$PROJECT_DIR$/templates/credit_goods.html" />
         <option value="$PROJECT_DIR$/templates/control.html" />
         <option value="$PROJECT_DIR$/templates/admin_goods.html" />
         <option value="$PROJECT_DIR$/templates/admin_credit_shop.html" />
         <option value="$PROJECT_DIR$/user/user.py" />
-        <option value="$PROJECT_DIR$/admin/templates/admin_goods.html" />
+        <option value="$PROJECT_DIR$/templates/credit_shop.html" />
+        <option value="$PROJECT_DIR$/admin/admin_creditshop.py" />
+        <option value="$PROJECT_DIR$/admin/admin.py" />
+        <option value="$PROJECT_DIR$/coupon/templates/take_coupon.html" />
+        <option value="$PROJECT_DIR$/admin/templates/adminadd.html" />
+        <option value="$PROJECT_DIR$/setting.py" />
+        <option value="$PROJECT_DIR$/quick_buy/group_buy.py" />
+        <option value="$PROJECT_DIR$/group_buying/templates/base.html" />
+        <option value="$PROJECT_DIR$/quick_buy/templates/base.html" />
+        <option value="$PROJECT_DIR$/quick_buy/templates/quick_shop.html" />
+        <option value="$PROJECT_DIR$/group_buying/templates/group_shop.html" />
+        <option value="$PROJECT_DIR$/group_buying/templates/photos.html" />
+        <option value="$PROJECT_DIR$/admin/templates/admin_group.html" />
+        <option value="$PROJECT_DIR$/group_buying/group_buy.py" />
+        <option value="$PROJECT_DIR$/quick_buy/quick_buy.py" />
+        <option value="$PROJECT_DIR$/admin/admin_group.py" />
+        <option value="$PROJECT_DIR$/admin/admin_quick.py" />
+        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/try.py" />
+        <option value="$PROJECT_DIR$/admin/templates/create_coupon.html" />
+        <option value="$PROJECT_DIR$/admin/templates/credit_form.html" />
         <option value="$PROJECT_DIR$/admin/templates/control.html" />
+        <option value="$PROJECT_DIR$/admin/templates/admin_goods.html" />
+        <option value="$PROJECT_DIR$/admin/templates/show_photos.html" />
+        <option value="$PROJECT_DIR$/admin/templates/try.html" />
+        <option value="$PROJECT_DIR$/coupon/templates/coupon_result.html" />
         <option value="$PROJECT_DIR$/credit_shop/templates/base.html" />
         <option value="$PROJECT_DIR$/coupon/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/credit_shop.html" />
-        <option value="$PROJECT_DIR$/credit_shop/templates/credit_shop.html" />
-        <option value="$PROJECT_DIR$/admin/admin_creditshop.py" />
-        <option value="$PROJECT_DIR$/admin/admin_credit.py" />
-        <option value="$PROJECT_DIR$/admin/admin.py" />
-        <option value="$PROJECT_DIR$/credit_shop/creditshop.py" />
-        <option value="$PROJECT_DIR$/setting.py" />
-        <option value="$PROJECT_DIR$/admin/templates/admin_credit_shop.html" />
-        <option value="$PROJECT_DIR$/admin/admin_coupon.py" />
-        <option value="$PROJECT_DIR$/coupon/templates/take_coupon.html" />
-        <option value="$PROJECT_DIR$/forms.py" />
-        <option value="$PROJECT_DIR$/coupon/coupon.py" />
         <option value="$PROJECT_DIR$/admin/templates/admin_coupon.html" />
-        <option value="$PROJECT_DIR$/admin/templates/adminadd.html" />
-        <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/admin/templates/admin_question.html" />
+        <option value="$PROJECT_DIR$/admin/templates/create_question.html" />
+        <option value="$PROJECT_DIR$/forms.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/show.html" />
+        <option value="$PROJECT_DIR$/coupon/templates/questions.html" />
+        <option value="$PROJECT_DIR$/credit_shop/creditshop.py" />
+        <option value="$PROJECT_DIR$/credit_shop/templates/credit_goods.html" />
+        <option value="$PROJECT_DIR$/admin/admin_coupon.py" />
+        <option value="$PROJECT_DIR$/admin/admin_credit.py" />
+        <option value="$PROJECT_DIR$/admin/templates/admin_credit_shop.html" />
+        <option value="$PROJECT_DIR$/credit_shop/templates/credit_shop.html" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/coupon/templates/coupon.html" />
+        <option value="$PROJECT_DIR$/coupon/coupon.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="252" />
     <option name="y" value="420" />
     <option name="width" value="1449" />
@@ -221,7 +254,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -259,7 +291,19 @@
             <path>
               <item name="jew_acc" type="b2602c69:ProjectViewProjectNode" />
               <item name="jew_acc" type="462c0819:PsiDirectoryNode" />
-              <item name="photos" type="462c0819:PsiDirectoryNode" />
+              <item name="credit_shop" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jew_acc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jew_acc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jew_acc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jew_acc" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="photo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="jew_acc" type="b2602c69:ProjectViewProjectNode" />
@@ -270,25 +314,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quick_buy" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\jew_acc\admin" />
-      <recent name="E:\jew_acc\coupon" />
-      <recent name="E:\jew_acc\credit_shop" />
-      <recent name="E:\jew_acc\coupon\templates" />
-      <recent name="E:\jew_acc\admin\templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\jew_acc\credit_shop\templates" />
       <recent name="E:\jew_acc\static\photo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\jew_acc\quick_buy" />
+      <recent name="E:\jew_acc\group_buying" />
+      <recent name="E:\jew_acc\admin" />
+      <recent name="E:\jew_acc\coupon" />
+      <recent name="E:\jew_acc\credit_shop" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -303,7 +348,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.app (1)">
+  <component name="RunManager" selected="Python.models (1)">
+    <configuration name="admin_credit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jew_acc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/admin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/admin/admin_credit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jew_acc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -317,27 +383,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jew_acc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jewelry_account" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jewelry_account/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -367,27 +412,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="jew_acc" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jewelry_account" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jewelry_account/models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="jew_acc" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,13 +433,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="try" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="jew_acc" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.models (1)" />
+        <item itemvalue="Python.admin_credit" />
+        <item itemvalue="Python.try" />
+        <item itemvalue="Python.app (1)" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.models" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -443,17 +488,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2271625" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2506063" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.37300178" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.40142095" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5004042" side_tool="true" weight="0.38120568" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3291367" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4995958" weight="0.37833038" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4995958" weight="0.27708703" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.44404975" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -466,9 +512,9 @@
     </layout>
     <layout-to-restore>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2271625" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23039612" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.38010657" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.37300178" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5004042" side_tool="true" weight="0.38120568" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -487,189 +533,313 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/123.jpg" />
-    <entry file="file://$PROJECT_DIR$/test.py" />
-    <entry file="file://$PROJECT_DIR$/Lib/site-packages/flask/globals.py">
+    <entry file="file://$PROJECT_DIR$/quick_buy/templates/quick_shop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="133">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pic_name.py" />
-    <entry file="file://$PROJECT_DIR$/templates/admin_coupon.html">
+    <entry file="file://$PROJECT_DIR$/group_buying/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-972" />
+        <state relative-caret-position="418">
+          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/create_coupon.html">
+    <entry file="file://$PROJECT_DIR$/group_buying/templates/photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_buying/templates/group_shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3838">
+          <caret line="202" column="16" selection-start-line="202" selection-start-column="16" selection-end-line="202" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin_group.html" />
+    <entry file="file://$PROJECT_DIR$/group_buying/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/credit_form.xhtml" />
-    <entry file="file://$PROJECT_DIR$/TEMP.py" />
-    <entry file="file://$PROJECT_DIR$/static/photo/321.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/photo/123.jpg" />
-    <entry file="file://$PROJECT_DIR$/static/photo/file1.jpg">
+    <entry file="file://$PROJECT_DIR$/quick_buy/quick_buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="55" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/photo/file1_18.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/coupon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/photo/file1_17.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/photo/file1_19.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/photo.html" />
-    <entry file="file://$PROJECT_DIR$/templates/try.html" />
-    <entry file="file://$PROJECT_DIR$/templates/admin_credit_shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3173">
-          <caret line="167" column="72" selection-end-line="190" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/photo/file1_20.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/control.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/user.py">
+    <entry file="file://$PROJECT_DIR$/pip-selfcheck.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/try.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="109" selection-start-line="6" selection-start-column="109" selection-end-line="6" selection-end-column="109" />
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#0#102#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/try.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/group_buying/group_buy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/form.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/credit_shop/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/credit_shop/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="329">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/admin_goods.html">
+    <entry file="file://$PROJECT_DIR$/admin/templates/credit_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/adminadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/create_coupon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/control.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="18" column="49" lean-forward="true" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin_question.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lib/site-packages/flask/app.py">
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin_goods.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        <state relative-caret-position="209">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/credit_form.html">
+    <entry file="file://$PROJECT_DIR$/admin/templates/create_question.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="23" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="160">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/show.html">
+    <entry file="file://$PROJECT_DIR$/admin/admin_quick.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="329">
+          <caret line="70" column="68" selection-start-line="70" selection-start-column="68" selection-end-line="70" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/form.html">
+    <entry file="file://$PROJECT_DIR$/coupon/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="274">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/user.html">
+    <entry file="file://$PROJECT_DIR$/coupon/templates/coupon_result.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/credit_shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#button#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="153">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin_creditshop.py">
+    <entry file="file://$PROJECT_DIR$/templates/show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#85#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_goods.html">
+    <entry file="file://$PROJECT_DIR$/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coupon/templates/questions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="114">
+          <caret line="6" column="14" lean-forward="true" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_shop.html">
+    <entry file="file://$PROJECT_DIR$/coupon/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        <state relative-caret-position="1001">
+          <caret line="114" column="60" selection-start-line="114" selection-start-column="60" selection-end-line="114" selection-end-column="60" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photos/file1.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/credit_shop/creditshop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
+        <state relative-caret-position="-44">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <element signature="e#0#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin_credit.py">
+    <entry file="file://$PROJECT_DIR$/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-570">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+        <state relative-caret-position="108">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
-            <element signature="e#0#85#0" expanded="true" />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="285">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/show_photos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-937">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin_credit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="17" column="68" selection-start-line="17" selection-start-column="68" selection-end-line="17" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/admin_coupon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="71" selection-start-line="71" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#102#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin_coupon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="56" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/admin_credit_shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="170" column="72" selection-start-line="170" selection-start-column="72" selection-end-line="170" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/credit_shop/templates/credit_shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="122" selection-start-line="74" selection-start-column="122" selection-end-line="74" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="41" column="39" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-779">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#114#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -677,124 +847,23 @@
     <entry file="file://$PROJECT_DIR$/coupon/templates/take_coupon.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin_coupon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="53" column="35" lean-forward="true" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon/coupon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coupon/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-380">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/coupon/templates/coupon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state relative-caret-position="323">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/coupon/templates/coupon_result.html">
+    <entry file="file://$PROJECT_DIR$/coupon/coupon.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin_coupon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin_credit_shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" column="42" lean-forward="true" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/admin_goods.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="50" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/adminadd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="25" column="43" selection-start-line="25" selection-start-column="43" selection-end-line="25" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/control.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/create_coupon.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates/credit_form.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="189">
+          <caret line="32" column="33" lean-forward="true" selection-start-line="32" selection-start-column="33" selection-end-line="32" selection-end-column="33" />
           <folding>
-            <element signature="e#1#115#0" expanded="true" />
+            <element signature="e#0#86#0" expanded="true" />
           </folding>
         </state>
       </provider>

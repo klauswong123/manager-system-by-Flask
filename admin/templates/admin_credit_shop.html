@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Album example · Bootstrap</title>
+    <title>積分商城</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 
@@ -42,7 +42,7 @@
         <strong>Stargazerillusion</strong>
       </a>
       <a href="/admin/coupon" class="navbar-brand d-flex align-items-center">
-        <strong>優惠券管理</strong>
+        <strong>代金券管理</strong>
       </a>
       <a href="/admin/credit_shop" class="navbar-brand d-flex align-items-center">
         <strong>積分商場商場</strong>
@@ -80,6 +80,7 @@
                                 <p class="card-text">所需積分：{{jewelry[0].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file1.jpg")}}>清空</a></button>
                                         <button><a href={{url_for('admin_credit.add_credit', file="file1.jpg")}}>新增</a></button>
                                     </div>
@@ -98,6 +99,7 @@
                                 <p class="card-text">所需積分：{{jewelry[1].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file2.jpg")}}>清空</a></button>
                                             <button><a href={{url_for('admin_credit.add_credit', file="file2.jpg")}}>新增</a></button>
                                     </div>
@@ -116,6 +118,7 @@
                                 <p class="card-text">所需積分：{{jewelry[2].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file3.jpg")}}>清空</a></button>
                                         <button><a href={{url_for('admin_credit.add_credit', file="file3.jpg")}}>新增</a></button>
                                     </div>
@@ -135,6 +138,7 @@
                                 <p class="card-text">所需積分：{{jewelry[3].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file4.jpg")}}>清空</a></button>
                                         <button><a href={{url_for('admin_credit.add_credit', file="file4.jpg")}}>新增</a></button>
                                     </div>
@@ -147,12 +151,13 @@
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225"
                                  src="/static/photo/file5.jpg" alt="暫無優惠券"/>
                             <div class="card-body">
-                                <p class="card-text">jewelry[4].name</p>
+                                <p class="card-text">{{jewelry[4].name}}</p>
                                 <br>
                                 <p class="card-text">剩餘數量：{{number[4]}}</p>
                                 <p class="card-text">所需積分：{{jewelry[4].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file5.jpg")}}>清空</a></button>
                                         <button><a href={{url_for('admin_credit.add_credit', file="file5.jpg")}}>新增</a></button>
                                     </div>
@@ -163,14 +168,15 @@
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
                             <img class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                 src="/static/photo/file6.jpg" alt="你的图片被外星人劫持了～～"/>
+                                 src="/static/photo/file6.jpg" alt="暫無圖片"/>
                             <div class="card-body">
-                                <p class="card-text">jewelry[5].name</p>
+                                <p class="card-text">{{ jewelry[5].name}}</p>
                                 <br>
                                 <p class="card-text">剩餘數量：{{number[5]}}</p>
                                 <p class="card-text">所需積分：{{jewelry[5].credit}}</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
+
                                         <button><a href={{url_for('admin_credit.del_credit', file="file6.jpg")}}>清空</a></button>
                                         <button><a href={{url_for('admin_credit.add_credit', file="file6.jpg")}}>新增</a></button>
                                     </div>

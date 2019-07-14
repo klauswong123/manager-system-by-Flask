@@ -9,12 +9,16 @@ from admin.admin import admin
 from admin.admin_coupon import admin_coupon
 from admin.admin_credit import admin_credit
 from coupon.coupon import coupon
+#from group_buying.group_buy import group
+#from quick_buy.quick_buy import  quick
 
 app.register_blueprint(credit)
 app.register_blueprint(admin)
 app.register_blueprint(admin_coupon)
 app.register_blueprint(admin_credit)
 app.register_blueprint(coupon)
+#app.register_blueprint(group)
+#app.register_blueprint(quick)
 
 manager = Manager(app)
 migrate = Migrate(app, db)
