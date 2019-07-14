@@ -1,6 +1,6 @@
 from flask import Blueprint, session, render_template, flash, redirect, url_for,abort,request, jsonify
 from models import Coupon, Questions, Results
-from forms import Coupon_CreateForm, Question_CreateForm
+from forms import Coupon_CreateForm, Question_CreateForm, Del_Coupon
 from setting import db
 
 admin_coupon = Blueprint('admin_coupon', __name__, url_prefix='/admin/coupon' ,template_folder='templates',static_folder='static')
@@ -68,5 +68,17 @@ def question():
         abort(400)
     results = Results.query.all()
     return render_template('admin_question.html', results=results)
+
+@admin_coupon.route('/charge', methods=['GET', 'POST'])
+def charge():
+    if not session.get('admin'):
+        abort(400)
+    form = Del_Coupon()
+    if form.validate_on_submit():
+        name = form.name.data
+        coupon = Coupon.query.filter_by(user_name=name).first()
+        db.session.delete(coupon)
+        return redirect(url_for('admin_coupon.admin_coupon_detail'))
+    return render_template('admin_delcoupon.html', form=form)
 
 

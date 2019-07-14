@@ -1,6 +1,5 @@
 {% extends 'bootstrap/base.html' %}
 {% import "bootstrap/wtf.html" as wtf %}
-
 {% block title %}管理員{% endblock %}
 
 {% block navbar %}
@@ -17,11 +16,13 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
+				<li><a href="/admin/add">新增用户</a></li>
 		        <li><a href="/logout">退出</a></li>
+				<li><a href="/admin/search">搜索用戶</a> </li>
 		    </ul>
 		    <ul class="nav navbar-nav">
 				<li><a href="/admin/control">首页</a></li>
-				<li><a href="/admin/coupon">查看代金劵</a></li>
+				<li><a href="/admin/coupon">代金劵管理</a></li>
 			</ul>
 		</div>
 	</div>
@@ -29,13 +30,5 @@
 {% endblock %}
 
 {% block content %}
-<div class="container">
-	{% for message in get_flashed_messages() %}
-		<div class="alert alert-warning">
-			<button type="button" class="close" data-dismiss="alert">&times;</button>
-			{{ message
-		</div>
-	{% endfor %}
-    {{ wtf.quick_form(form) }}
-</div>
-{% endblock %}
+{{ wtf.quick_form(form) }}
+{% endblock%}

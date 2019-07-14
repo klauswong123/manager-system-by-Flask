@@ -72,6 +72,9 @@ class AnswerForm(FlaskForm):
     select = RadioField(question.question,choices=[('1',question.select1),('2',question.select2),('3',question.select3),('4',question.select4)])
     submit = SubmitField("提交問卷")
 
+class Del_Coupon(FlaskForm):
+    name = StringField('輸入ig賬戶並刪除其一張代金券', validators=[DataRequired(message='請輸入選項')])
+    submit = SubmitField("提交")
 
 class SearchForm(FlaskForm):
 	keyword = StringField("输入查询关键字", validators=[DataRequired(message="输入不能为空")])

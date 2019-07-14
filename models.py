@@ -41,7 +41,7 @@ class Coupon(db.Model):
     use_date = db.Column(db.DateTime, default=datetime.now, onupdate=datetime.now)
     user_name = db.Column(db.String(64))
     user_phone = db.Column(db.Integer, default=0)
-    used = db.Column(db.Boolean, default=True)
+    used = db.Column(db.Boolean, default=False)
 
 class Questions(db.Model):
     __tablename__="questions"
