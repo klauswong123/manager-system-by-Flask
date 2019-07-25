@@ -34,6 +34,7 @@ def coupon_take():
             if taked == now:
                 flash("今日已經領取，請明日再領")
                 return redirect(url_for('coupon.coupon_detail'))
+        return redirect(url_for('coupon.question_take'))
     else:
         return redirect(url_for('coupon.question_take'))
     return redirect(url_for('coupon.coupon_detail'))
