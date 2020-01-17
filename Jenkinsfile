@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('TRy') {
       steps {
-        sh 'git config --global ghi.token d2abfc3b8b3c7b0b9477f53bcaa4d1b45bdd3bd9'
+        sh 'git config --global ghi.token 4fb61b17bf148edd391190909edb68b0da3336e1'
         sh 'git config -l'
       }
     }
