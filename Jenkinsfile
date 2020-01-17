@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('TRy') {
       steps {
-        sh 'git config -l'
+        sh 'git config --global ghi.token e5b9be6f3a92af601f93006551651be2896c945b'
       }
     }
 
@@ -13,5 +13,8 @@ pipeline {
       }
     }
 
+  }
+  environment {
+    Key = 'e5b9be6f3a92af601f93006551651be2896c945b'
   }
 }
