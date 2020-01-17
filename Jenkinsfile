@@ -11,6 +11,8 @@ pipeline {
     stage('gitcon') {
       steps {
         sh 'git config ghi.repo klauswong123/manager_system_by_flask'
+        sh 'git config -l'
+        sh 'ghi list'
         sh 'ghi open -m "this is a new issue\\n a new issue"'
       }
     }
