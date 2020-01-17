@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('gitcon') {
+      steps {
+        sh 'ghi open -m "this is a new issue\\n a new issue"'
+      }
+    }
+
   }
 }
