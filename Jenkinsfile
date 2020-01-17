@@ -12,7 +12,8 @@ pipeline {
       steps {
         sh 'git config ghi.repo klauswong123/manager_system_by_flask'
         sh 'git config -l'
-        sh 'ghi config --auth e5b9be6f3a92af601f93006551651be2896c945b'
+        sh 'ghi config --auth klauswong123'
+        sh '1314EBxiaozhu'
         sh 'ghi open -m "this is a new issue\\n a new issue"'
       }
     }
